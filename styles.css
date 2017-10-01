@@ -1,19 +1,51 @@
 /* add your CSS here */
-div{
+
+.card {
+    width: 320px;
     border: 1px solid #888888;
     padding: 10px;
 }
 
-.fact{
-    font-style: italic;
+.card .card-title {
+    width: 300px;
+    margin-left: 10px;
 }
 
-.labels{
+.card .card-picture {
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.card .card-content {
+    border: 1px solid #888888;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.card .card-content .fact {
+    font-style: italic;
+    width:290px;
+    margin-left: 10px;
+}
+
+.card .card-content .card-info {
+    width:280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card .card-content .card-details {
+    width:290px;
+    margin-left: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.card .card-content .card-details .item {}
+
+.card .card-content .card-details .item .labels {
     font-weight: bold;
     text-transform: capitalize;
-}
-
-ul{
-    list-style: none;
-    padding: 0px;
 }
